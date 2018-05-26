@@ -27,7 +27,7 @@ def configure_loggers(logfile, verbosity):
     logging._defaultFormatter = logging.Formatter('%(asctime)s - %(process)d - %(name)s - %(levelname)s - %(message)s')
     stdout_handler = logging.StreamHandler(sys.stdout)
     stdout_handler.setLevel(verbosity)
-    stdout_handler.addFilter(pip.utils.logging.MaxLevelFilter(logging.WARNING))
+    # stdout_handler.addFilter(pip.utils.logging.MaxLevelFilter(logging.WARNING))
     stderr_handler = logging.StreamHandler(sys.stderr)
     stderr_handler.setLevel(logging.WARNING)
     rootLogger.addHandler(stdout_handler)
