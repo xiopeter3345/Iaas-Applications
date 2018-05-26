@@ -216,7 +216,7 @@
               "virtualNetworkProfile": {
                                 "id": "/subscriptions/f3e17940-3b2d-4749-bb6f-4aed418da05c/resourceGroups/lazhuhdi/providers/Microsoft.Network/virtualNetworks/lazhuhdi",
                                 "subnet": "/subscriptions/f3e17940-3b2d-4749-bb6f-4aed418da05c/resourceGroups/lazhuhdi/providers/Microsoft.Network/virtualNetworks/lazhuhdi/subnets/default"
-                            },
+                            }
             }
           ]
         }
